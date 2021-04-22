@@ -24,7 +24,7 @@ class Resume extends Component {
             /> <
             /div> <
             h2 style = {
-                { paddingTop: '2em' } } > Sina Heydari w < /h2> <
+                { paddingTop: '2em' } } > Sina Heydari < /h2> <
             h4 style = {
                 { color: 'grey' } } > programmer < /h4> <
             hr style = {
