@@ -15,35 +15,42 @@ class Resume extends Component {
             Cell col = { 4 } >
             <
             div style = {
-                { textAlign: 'center' } } >
+                { textAlign: 'center' }
+            } >
             <
             img src = "https://media.istockphoto.com/vectors/business-man-icon-male-face-silhouette-with-office-suit-and-tie-user-vector-id1194657244?k=6&m=1194657244&s=170667a&w=0&h=TX8EZEkWjZtJexfv7yDiYcFSRSmMDwOg0EUT_HIZXH4="
             alt = "avatar"
             style = {
-                { height: '200px' } }
-            /> <
-            /div> <
+                { height: '200px' }
+            }
+            /> < /
+            div > <
             h2 style = {
-                { paddingTop: '2em' } } > Sina Heydari < /h2> <
+                { paddingTop: '2em' }
+            } > Sina Heydari < /h2> <
             h4 style = {
-                { color: 'grey' } } > programmer < /h4> <
+                { color: 'grey' }
+            } > programmer < /h4> <
             hr style = {
-                { borderTop: '3px solid #00FFFF', width: '58%' } }
+                { borderTop: '3px solid #00FFFF', width: '58%' }
+            }
             /> <
             p > I am a fast learner, motivated computer science graduate with a huge interest in design and software engineering, seeking jobs to expand my knowledge and skills. < /p> <
             hr style = {
-                { borderTop: '3px solid #00FFFF', width: '58%' } }
+                { borderTop: '3px solid #00FFFF', width: '58%' }
+            }
             /> <
             h5 > Adress < /h5> <
             p > 1010 Raleigh Glendale CA, 91205 < /p> <
             h5 > Phone < /h5> <
-            p > (949) 357 - 3768 < /p> <
+            p > (747) 228 - 4204 < /p> <
             h5 > Email < /h5> <
             p > sinaali .7 .70 @gmail.com < /p> <
             hr style = {
-                { borderTop: '3px solid #00FFFF', width: '58%' } }
-            /> <
-            /Cell> <
+                { borderTop: '3px solid #00FFFF', width: '58%' }
+            }
+            /> < /
+            Cell > <
             Cell className = "resume-right-col"
             col = { 8 } >
             <
@@ -59,7 +66,8 @@ class Resume extends Component {
             schoolDescription = { 'Fullerton, CA ( Bachelor’s degree in Computer science )' }
             /> <
             hr style = {
-                { borderTop: '3px solid #ac6b53' } }
+                { borderTop: '3px solid #ac6b53' }
+            }
             /> <
             h2 > Experience < /h2> <
             Experience startYear = { 2015 }
@@ -78,7 +86,8 @@ class Resume extends Component {
             jobDescription = { '● Coding in different programming languages for personal usage ● Used languages such as c++, java, javascript' }
             /> <
             hr style = {
-                { borderTop: '3px solid #ac6b53' } }
+                { borderTop: '3px solid #ac6b53' }
+            }
             /> <
             h2 > Skills < /h2> <
             Skills skill = "Full stack web-development"
@@ -104,8 +113,8 @@ class Resume extends Component {
             p > Knowledge in technologies like react. < /p>
 
             <
-            /Cell> <
-            /Grid> <
+            /Cell> < /
+            Grid > <
             /div>
         )
     }
